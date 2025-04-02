@@ -1,0 +1,48 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+*.venv
+ENV/
+env/
+venv/
+env.bak/
+venv.bak/
+
+# === FastAPI specific ===
+*.log
+
+# === Node / Next.js ===
+node_modules/
+.next/
+dist/
+build/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === VSCode ===
+.vscode/
+
+# === Environment files ===
+.env
+.env.local
+.env.production
+.env.development
+
+# === Jupyter Notebooks ===
+*.ipynb_checkpoints/
+
+# === Data files ===
+*.db
+*.sqlite
+*.json
+*.csv
+
+# === Virtual Environment (If accidentally created outside backend folder) ===
+backend/venv/
+frontend/venv/
