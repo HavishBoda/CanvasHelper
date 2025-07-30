@@ -8,3 +8,6 @@ fastapi
 uvicorn
 sentence-transformers
 torch
+openai
+anthropic
+google-generativeai
